@@ -11,13 +11,14 @@ gem 'jbuilder'
 gem 'jsbundling-rails'
 gem 'paranoia', '~> 2.6', '>= 2.6.3'
 gem 'pg', '~> 1.1'
-gem 'puma', '~> 5.0'
+gem 'puma', '~> 6.4'
 gem 'rails', '~> 7.1', '>= 7.1.1'
 gem 'redis', '~> 4.0'
 gem 'sprockets-rails'
 gem 'stimulus-rails'
 gem 'turbo-rails'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
+gem 'devise', '~> 4.9', '>= 4.9.3'
 
 group :development, :test do
   gem 'brakeman', '~> 6.0', '>= 6.0.1'
